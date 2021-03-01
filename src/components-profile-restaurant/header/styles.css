@@ -1,0 +1,83 @@
+header#header-of-header-profile{
+    display: flex;
+    justify-content: space-between;
+    background: var(--white-clear);
+    padding-bottom: 10%;
+}
+span#phrase-effect{
+    display: block;
+    margin-top: 5%;
+    font-size: 1.8rem;
+}
+
+div#button-arrow{
+    margin: 3rem 2.5rem;
+    display: inline-block;
+    background: var(--white);
+    position: relative;
+    height: 2.5rem;
+    padding: 7.5%;
+    border-radius: 10px;
+    opacity: 60%;
+}
+div#button-favorite{
+    margin: 3rem 2.5rem;
+    display: inline-block;
+    background: var(--white);
+    position: relative;
+    height: 2.5rem;
+    padding: 0.8%;
+    border-radius: 10px;
+    opacity: 60%;
+
+}
+div#button-arrow:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+div#button-favorite:hover{
+    opacity: 100%;
+    cursor: pointer;
+}
+
+@media(max-width: 1048px){
+}
+
+@media(max-width: 700px){
+    header#header-of-header-profile{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    div#button-arrow{
+        margin: 3rem 2.5rem;
+        display: inline-block;
+        background: var(--white);
+        position: relative;
+        height: 2.5rem;
+        padding: 7.5%;
+        border-radius: 10px;
+        opacity: 60%;
+    }
+    div#button-favorite{
+        margin: 3rem 2.5rem;
+        display: inline-block;
+        background: var(--white);
+        position: relative;
+        height: 2.5rem;
+        padding: 1.5%;
+        border-radius: 10px;
+        opacity: 60%;
+    
+    }
+    div#button-arrow:hover{
+        opacity: 100%;
+        cursor: pointer;
+    }
+    
+    div#button-favorite:hover{
+        opacity: 100%;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,89 @@
+
+section#body-section-food{
+    display: flex;
+    justify-content: space-between;
+    background: var(--white-clear);
+    padding: 1% 0%;
+    margin-bottom: 30px;
+}
+
+section#body-section-food img{
+    width: 16%;
+    margin-left: 1.5rem;
+
+}
+div.body-food-information{
+    margin-right: 25%;
+}
+section#body-section-food div.body-food-information span.food-name{
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom:30px;
+}
+section#body-section-food div.body-food-information p.ingredients-food{
+    font-size: 0.8rem;
+    color:  #5f5f5f;
+    width: 93%;
+}
+span.value-food{
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    margin-top: 2rem;
+}
+div#value-button #button-add-icon{
+    color: white;
+    font-size: 14pt;
+}
+div#value-button #button-add-div{
+    display: inline;
+    background: orange;
+    
+    padding: 0px 5px;
+    border-radius: 8px;
+
+    height: 10%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+div#value-button #button-add-div:hover{
+    cursor: pointer;
+    background: rgb(214, 140, 2);
+}
+div#value-button{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 1048px){
+    
+}
+
+@media(max-width: 700px){
+    section#body-section-food{
+        padding: 0% 0%;
+    }
+    
+    section#body-section-food img{
+        width: 35%;
+        margin-left: 0rem;
+    
+    }
+    div.body-food-information{
+        margin-right: 0%;
+    }
+    span.value-food{
+        margin-top: 1rem;
+    }
+    div#value-button #button-add-div{
+        display: inline;
+        background: orange;
+        border-radius: 8px;     
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    section#body-section-food div.body-food-information span.food-name{
+        margin-bottom:0px;
+    }
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+    font-family: poppins, sans-serif;
+}
+
+:root{
+    --text: #151e28;
+    --orange: #f2994a;
+    --white-clear: #f7f7f7;
+    --white: #ffffff;
+}

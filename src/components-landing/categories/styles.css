@@ -1,0 +1,62 @@
+h4#categories-title{
+    font-size: 0.9rem;
+    margin: 35px 25px 0px 40px;
+}
+h4#restaurants-title{
+    font-size: 0.9rem;
+    margin: 35px 25px 0px 40px;
+}
+
+section#categories-card{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px;
+    margin: 20px 0px 10px 30px;
+    border: 2px solid var(--white-clear);
+    color: var(--text);
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+section#categories-card:hover{
+    background: rgba(199, 199, 199, 0.493);
+}
+
+section#categories-card img{
+    width: 35px;
+    margin-right: 8px;
+}
+@media(max-width: 700px){
+    h4#categories-title{
+        font-size: 0.9rem;
+        margin: 35px 25px 0px 40px;
+    }
+    h4#restaurants-title{
+        font-size: 0.9rem;
+        margin: 35px 25px 0px 40px;
+    }
+    
+    section#categories-card{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    
+        padding: 8px;
+        margin: 20px 0px 10px 30px;
+        border: 2px solid var(--white-clear);
+        color: var(--text);
+        border-radius: 13px;
+        cursor: pointer;
+    }
+    
+    section#categories-card:hover{
+        background: rgba(199, 199, 199, 0.493);
+    }
+    
+    section#categories-card img{
+        width: 35px;
+        margin-right: 8px;
+    }
+}
